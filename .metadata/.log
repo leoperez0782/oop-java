@@ -1,0 +1,109 @@
+!SESSION 2021-05-08 12:15:15.484 -----------------------------------------------
+eclipse.buildId=4.10.0.202103111225
+java.version=11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_UY
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2021-05-08 12:15:31.711
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-05-08 12:15:31.711
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2021-05-08 12:15:32.430
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2021-05-08 12:15:32.451
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2021-05-08 12:15:33.379
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-05-08 12:15:33.379
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ab2c5d8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ec75178,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-05-08 12:15:39.378
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\leo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.jaspersoft.studio 1 0 2021-05-08 12:19:37.127
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.16.0.final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:50.733
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:50.735
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@e6473fb[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=2656)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:50.738
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:50.772
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:54.359
+!MESSAGE Boot LS startup time from start to initialized: 3614ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:54.528
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PqjaSXMIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:54.534
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:54.539
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:54.540
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:54.541
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:54.541
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PqjaSXMI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:54.547
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:54.548
+!MESSAGE buffering callback sts4.classpath.PqjaSXMI oopjava false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:54.549
+!MESSAGE executing callback sts4.classpath.PqjaSXMI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:19:54.998
+!MESSAGE executing callback sts4.classpath.PqjaSXMI SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-05-08 12:21:18.855
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:38:54.086
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PqjaSXMI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:38:54.087
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PqjaSXMI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:38:54.089
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-08 12:38:54.091
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PqjaSXMI => OK

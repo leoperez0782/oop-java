@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+D:\Proyectos 2021\Java\oop-java\.metadata\.plugins\org.eclipse.jdt.core

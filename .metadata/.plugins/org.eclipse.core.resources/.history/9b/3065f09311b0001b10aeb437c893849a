@@ -1,0 +1,39 @@
+package com.io.github.leoperez0782.oopjava;
+
+public class Persona {
+
+	//Atributos
+	private String nombre;
+	private String edad;
+	
+	//Constructor
+	public Persona(String nombre, String edad) {
+		super();
+		this.nombre = nombre;
+		this.edad = edad;
+	}
+
+	//Métodos de acceso
+	public String getNombre() {
+		return nombre;
+	}
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+	public String getEdad() {
+		return edad;
+	}
+
+
+	public void setEdad(String edad) {
+		this.edad = edad;
+	}
+	
+	
+	
+	
+}
